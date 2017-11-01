@@ -1,0 +1,328 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+ .homebody{
+	background: black;
+}
+.con{
+	width: 1359px;
+	height: 2059px;	
+	position: relative;
+	top: 61px;
+	z-index: 9;
+	background: black;
+}
+.con  span{
+	font-size: 12px;
+	color: white;
+	margin-left: 20px;
+}
+.con  p{
+	font-size: 25px;
+	color: white;
+	font-weight:500;
+	margin-left: 20px;
+}
+ .more{
+	display: block;
+	margin-top: 80px;
+	color: white;
+	}
+	
+.none{
+	text-decoration: none;
+}
+	
+.con .con_top{
+	width: 1359px;
+	height:569px ;
+	background: white;
+}
+.con_top .lip_pic{
+	width: 1011px;
+	height: 569px;
+	background: url(../img/liptensity_hero_960x540.jpg) center no-repeat ;
+	background-size: 100%;
+	position: absolute;
+}
+.con .con_top .clarity{
+	width: 1011px;
+	height: 569px;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	opacity: 0;
+
+}
+  .con .con_top .clarity:hover{
+	opacity: 1;
+}
+.con .con_top .clarity .log{
+	width: 257px;
+	height: 100px;
+	background:url(../img/liptensity_logo_white_257.png);
+	margin:0 auto;
+	margin-top: 100px;
+}
+ .con .con_top .clarity .text{
+	color: white;
+	height: 12px;
+	line-height:12px ;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+}
+ .con .con_top .clarity a{
+	display: block;
+	color: white;
+	height: 12px;
+	line-height:12px ;
+	text-align: center;
+	font-size: 12px;
+	margin: 30px auto;
+	
+}
+.con .email{
+	width:348px ;
+	height: 189px;
+	
+	position: relative;
+	left:1011px ;
+	
+	
+}
+.con .email span{
+	display: block;
+	color: black;
+	font-size: 22px;
+	margin-left:20px;
+	padding-top: 15px;
+}
+.con .email input:nth-of-type(1){
+	display: block;
+	width: 308px;
+	height:50px ;
+	margin: 10px 20px;
+	
+}
+.con .email input:nth-of-type(2){
+	display: block;
+	width: 308px;
+	height:50px ;
+	margin: 20px 20px;
+	background: black;
+	color: white;
+	border: 0px;
+}
+.con .MCode{
+	width:348px ;
+	height: 189px;
+	position:relative ;
+	left:1011px ;
+	
+	
+}
+.con .MCode span{
+	position: relative;
+	font-size: 22px;
+	color: black;
+	left: 18px;
+	top:10px;
+}
+.con .MCode div{
+	width: 120px;
+	height: 120px;
+	background: url(../img/MAC_QRCODE_2-website_50.jpg);
+	background-size: 100%;
+	margin: 20px;
+	
+}
+.con .block{
+	width: 348px;
+	height: 191px;
+	background: black;
+	position:relative ;
+	
+	left: 1011px;
+}
+.con .block p{
+	display: block;
+	margin-left: 20px;
+	font-size: 24px;
+	color: white;
+	
+	
+}
+.con .block .guarantee{
+	width:100px;
+	height: 150px;
+	background: url(../img/trustmark-1.png) top center no-repeat;
+	background-size:70px;
+	border-left: 2px solid white;
+	position: relative;
+	left:248px;
+	bottom: 80px;
+}
+.con .block a{
+	position: relative;
+	color: white;
+	font-size: 12px;
+	left: 20px;
+	top: 80px;
+	
+}
+.con_left {
+	width:680px;
+	height: 919px;
+	float: left;
+}
+.con_left .first{
+	width: 680px;
+	height: 469px;
+	background: black;
+}
+.con_left .first>div{
+	width: 340px;
+	height: 319px;
+	float: left;
+}
+.con_left .first img{
+	width: 340px;
+	height: 319px;
+}
+
+.con_left .first .more{
+		margin-top: 60px;
+	}
+.con_left .second{
+	width: 680px;
+	height: 469px;
+	background: black;
+}
+.con_left .second .second_left{
+	width:340px;
+	height: 469px;
+	float: left;
+}
+.con_left .second_left img{
+	width:340px;
+	height: 279px;
+}
+
+ .con_left .second .second_right {
+	width:340px;
+	height: 469px;
+	background: white;
+	float: left;
+}
+.con_left .second .second_right a{
+	display: block;
+	height: 496px;
+	
+	margin-left: 20px;
+}
+ .con_left .second .second_right p{
+ 	color: black;
+ 	font-size: 30px;
+ 	
+ }
+ .con_left .third{
+ 	width: 680px;
+ 	height: 588px;
+ 	background: black;
+ 
+ }
+ 
+.con_left .third img{
+	width: 680px;
+ 	height: 372px;
+}
+.con_right{
+	width:679px;
+	height: 919px;
+	background: red;
+	float: left;
+}
+.con_right .first{
+	width:679px;
+	height:573px ;
+}
+.con_right .first img{
+	width:679px;
+	height:573px ;
+	position: absolute;
+}
+ .con_right .first .clarity{
+	width:679px;
+	height:573px ;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	opacity: 0;
+
+}
+  .con_right .first .clarity .log{
+	width: 257px;
+	height: 20px;
+	background:url(../img/brow_sculpt_logo_white_257.png);
+	margin:0 auto;
+	margin-top: 250px;
+}
+
+  .con_right .first .clarity .text{
+	color: white;
+	height: 12px;
+	line-height:12px ;
+	text-align: center;
+	font-size: 12px;
+	margin: 20px auto;
+}
+  .con_right .first .clarity a{
+	display: block;
+	color: white;
+	height: 12px;
+	line-height:12px ;
+	text-align: center;
+	font-size: 12px;
+	margin: 30px auto;
+	
+}
+   .con_right .first .clarity:hover{
+	opacity: 1;
+}
+.con_right .second{
+	height: 510px;
+	width: 679px;
+	background: black;
+}
+.con_right .second .left{
+	float: left;
+}
+.con_right .second .left img{
+	display: block;
+	width: 340px;
+	height: 255px;
+}
+.con_right .second .right{
+	height: 510px;
+	width: 339px;
+	float: left;
+}
+.con_right .second .right img{
+	width: 339px;
+	height:252px ;
+}
+.con_right .third div{
+	height: 443px;
+	width: 50%;
+	float: left;
+	background: black;
+}
+.con_right .third img{
+	width: 339px;
+	height: 318px;
+	display: block;
+}
+.con_right .third .more{
+	margin-top: 30px;
+}

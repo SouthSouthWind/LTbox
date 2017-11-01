@@ -1,0 +1,113 @@
+
+
+.showorder{
+	width: 1048px;
+    height: 620px;
+   /* background:red;*/
+    position: absolute;
+    left: 300px;
+    top: 62px;
+    background: #272727;
+    
+}
+.order{
+	 width: 100%;
+    height: 130px;
+    position:relative;
+    border-bottom: 1px solid #e7e7e7;
+    list-style: none;
+    background: #272727;
+}
+.order li{
+    float: left;
+    height: 100%;
+    position: relative;
+    padding-left: 30px;
+    line-height: 130px;
+     color: #9c9c9c;
+}
+.order .show_img img{
+   width: 90px;
+    height: 90px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.order p,a{
+    color: #9c9c9c;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.show_model p{
+	line-height:65px ;
+	
+}
+.show_img{
+	width: 250px;
+}
+.show_name{
+	position: absolute;
+	width:90px;
+	top: 0;
+	left: 180px;
+}
+.changeorderpage{
+	position: relative;
+   width:100%;
+   height: 20px; 
+    list-style: none;
+}
+.changeorderpage li{
+	float: left;
+	width: 50%;
+	position: relative;
+	left: 250px;
+	
+}
+.inputcomment{
+	position: absolute;
+	display: none;
+	left: 300px;
+	width:400px;
+	height: 250px;
+	background: black;
+	border-radius: 10px;
+}
+
+.inputcomment div{
+	color: white;
+	margin-left: 70px;
+	margin-top: 30px;
+	
+	
+}
+.titlediv{
+	height:40px;
+	line-height: 40px;
+	
+}
+.content{
+	height:80px;
+	line-height: 80px;
+}
+.inputcomment .comments_title{
+	height:40px;
+	width: 200px;
+	
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+.inputcomment .content{
+	height:80px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+ .commetnbtn input{
+ 	margin-left: 50px;
+	width: 70px;
+	height: 30px;
+	border: 1px solid gainsboro;
+	border-radius: 3px;
+}
+

@@ -1,0 +1,106 @@
+@charset "utf-8";
+.manage_place {
+    position: absolute;
+    height: 559px;
+    width: 1049px;
+    top: 62px;
+    left: 300px;
+    background-color: #272727;
+}
+.manage_place p{
+	color: white;
+}
+.dose_have {
+    position: relative;
+    height: 559px;
+    width: 600px;
+    border-right: 1px solid #ccc;
+}
+
+.dose_have ul {
+    height: 500px;
+    width: 550px;
+    margin: 0 25px;
+    list-style-type: none;
+    overflow-y: auto;
+}
+
+.dose_have ul li {
+
+    border-bottom: 1px solid #ccc;
+}
+
+.dose_have ul li div {
+    height: 80px;
+    width: 500px;
+    font-size: 14px;
+    /*text-align: center;*/
+    margin-top: 29px;
+    /*background-color: white;*/
+}
+
+.dose_have ul li div .dose_have_left {
+    margin-left: 400px;
+}
+.dose_have ul li div span {
+    color: white;
+}
+
+.dose_have ul li div .username {
+    margin-left: 10px;
+}
+
+.dose_have ul li div button {
+    width: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    color: gainsboro;
+    background: darkslategray;
+}
+
+.goods_place {
+    position: relative;
+    height: 559px;
+    width: 459px;
+    left: 600px;
+    top: -559px;
+}
+
+.goods_place p {
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.goods_place form {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.goods_place form lable{
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    color: white;
+}
+
+.place_inputbox {
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    height: 30px;
+}
+
+.place_save {
+    width: 140px;
+    height: 30px;
+    display: inline-block;
+    background: darkslategray;
+    color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin-top: 100px;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.dibu {
+    position: relative;
+}
+
+.section {
+    width: 1359px;
+    height: 335px;
+    background-color: #272727;
+}
+
+.section table {
+    width: 1259px;
+    height: 335px;
+    margin-left: 25px;
+}
+
+.section table tr {
+    width: 100%;
+    height: 255px;
+}
+
+.section table tr td {
+    width: 20%;
+    height: 255px;
+}
+
+.section table tr td p {
+    font-size: 20px;
+    color: #F0F0F0;
+}
+
+.section table tr td ul li {
+    list-style-type: none;
+    height: 25px;
+}
+
+.section table tr td ul li a {
+    font-size: 12px;
+    color: #EFEFEF;
+}
+
+.section table tr td a {
+    font-size: 13px;
+    color: #B4B4B4;
+}
+
+.footer {
+    width: 1359px;
+    height: 92px;
+    background-color: #0C0C0C;
+}
+
+.footer span {
+    margin-left: 25px;
+    height: 92px;
+    line-height: 92px;
+    color: #666;
+    font-size: 13px;
+}
+
+.footer span a {
+    text-decoration: none;
+    color: #666;
+}
+
+.consult {
+    position: fixed;
+    width: 97px;
+    height: 27px;
+    left: 10px;
+    bottom: 10px;
+    z-index: 999;
+}

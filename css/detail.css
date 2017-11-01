@@ -1,0 +1,201 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#detail {
+    width: 100%;
+    height: 808px;
+    border-bottom: 1px solid #ccc;
+}
+
+#img {
+    width: 693px;
+    height: 746px;
+    display: inline-block;
+    position: absolute;
+    top: 62px;
+    border-right: 1px solid #ccc;
+}
+
+#img>img {
+    width: 693px;
+    height: 746px;
+}
+
+#introduce {
+    width: 321px;
+    height: 746px;
+    background-color: white;
+    position: relative;
+    left: 694px;
+    top: 62px;
+}
+
+.introduce {
+    position: absolute;
+    width: 291px;
+    margin: 26px 15px 0px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#up_introduce {
+    height: 118px;
+}
+
+.span1 {
+    font-size: 30px;
+    color: #272822;
+}
+
+.span2 {
+    font-size: 14px;
+    color: #4C4C4C;
+}
+
+#middle_introduce {
+    height: 250px;
+    top: 144px;
+}
+
+#middle_introduce>span {
+    font-size: 20px;
+    color: #272822;
+}
+
+#middle_introduce>p {
+    width: 291px;
+    font-size: 14px;
+    color: #4C4C4C;
+    margin-top: 20px;
+}
+
+#enter_introduce {
+    height: 95px;
+    top: 410px
+}
+
+.span3 {
+    font-size: 24px;
+    color: #A3433A;
+    line-height: 40px;
+}
+
+.span4 {
+    font-size: 12px;
+    color: #272822;
+    line-height: 20px;
+}
+
+#mac_price {
+    height: 77px;
+    top: 510px;
+}
+
+#mac_price>span {
+    height: 75px;
+    line-height: 55px;
+}
+
+.price_num {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+#in_shopcar {
+    position: absolute;
+    top: 613px;
+    left: 15px;
+    width: 290px;
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+}
+
+#in_shopcar>a {
+    text-decoration: none;
+    color: white;
+}
+
+#in_shopcar>a:hover {
+    text-decoration: underline;
+}
+
+#in_shopcar>a>span {
+    display: inline-block;
+    width: 290px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    
+}
+
+#mac_color {
+    width: 343px;
+    height: 746px;
+    background-color: white;
+    position: relative;
+    left: 1015px;
+    top: -684px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+#mac_color>div {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #272822;
+}
+
+#mac_color>ul {
+    position: relative;
+    list-style-type: none;
+    width: 300px;
+    top: 80px;
+    border-top: 1px solid #ccc;
+    margin-left: 15px;
+    /*background-color: #C1C1C1;*/
+}
+
+#mac_color>ul>li {
+    color: #272822;
+}
+
+#mac_color>ul>li>.comments_tiptle {
+    height: 50px;
+    width: 300px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+#mac_color>ul>li>.comments_content {
+    width: 300px;
+    font-size: 14px;
+    color: #272727;
+}
+
+#mac_color>ul>li>.comments_time {
+    width: 300px;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 20px;
+    color: #C2C2D3;
+}
+
+
+/*.one_comments {}
+
+.comments_box {}
+
+.comments_tiptle {}
+
+.comments_content {}
+
+.comments_time {}*/

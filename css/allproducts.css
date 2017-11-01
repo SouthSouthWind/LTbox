@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+.allproductdiv{
+	position: relative;
+	width:100%;
+	padding-top:82px;
+	/*height:2485px;*/
+	}
+		
+li{list-style-type:none;}
+a{text-decoration:none;}
+
+.product{ 
+	width:1200px;
+ 	/*height:420px; */
+ 	margin:20px 68px 0px 68px;
+ 	}
+.product tr{
+	height:480px;
+}
+.productfugu{ 
+	width:285px; 
+	height:420px; 
+	position: relative;
+	border-bottom:2px 
+	solid #CCC; 
+	border-top:2px 
+	solid #CCC;}
+.productfugu ul{ 
+	float:left; 
+	width:220px; 
+	height:80px; 
+	padding-top:20px;}
+.productfugu ul li{ 
+	float:left; 
+	width:220px; 
+	height:auto; 
+	margin-left:0px;}
+.productfugu ul li a{ 
+	float:left; 
+	width:220px; 
+	height:auto;
+	font-size:18px; 
+	color:#000; 
+	font-weight:bold;}
+.productfugu ul li img{ 
+	width:74px; 
+	height:43px;
+	float:right; 
+	margin-top:-70px; 
+	margin-right:-65px;}
+.goodsimg{ 
+	
+	width:220px; 
+   height:320px ;
+	}
+.productrougan{ 
+	width:285px; 
+	height:420px; 
+	float:left; 
+	margin-left:20px; 
+	border-bottom:2px solid #CCC; 
+	-top:2px solid #CCC;
+}
+.productrougan ul{ 
+	float:left; 
+	width:200px; 
+	height:80px; 
+	padding-top:20px;}
+.productrougan ul li{ 
+	float:left; 
+	width:200px; 
+	height:auto; 
+	margin-left:0px;}
+.productrougan ul li a{ 
+	float:left; 
+	width:200px; 
+	height:auto;
+	font-size:18px; 
+	color:#000; 
+	font-weight:bold;}
+.productrougan ul li img{ 
+	width:74px; 
+	height:43px;
+	float:right; 
+	margin-top:-70px; 
+	margin-right:-85px;}
+
+.jiage{
+	width:1200px; 
+	height:100px; 
+	margin:5px 68px 0px 68px;}
+
+.fugujiage{ 
+	width:285px; 
+	height:60px; 
+	position: relative;
+	margin-left:0px; }
+.fugujiage ul{ 
+	float:left; 
+	width:200px; 
+	height:60px; 
+	padding-top:20px;}
+.fugujiage ul li{
+	float:left; 
+	width:200px; 
+	height:auto; 
+	margin-left:0px; 
+	font-size:16px; 
+	font-weight:bold;}
+.fugujiage ul li a{
+	float:right; 
+	width:125px; 
+	height:40px; 
+	margin-top:-25px; 
+	margin-right:-85px; 
+	text-align:center; 
+	line-height:40px; 
+	background:#000;
+	color:#FFF;}
+.fugujiage ul li a:hover{ 
+	text-decoration:underline;
+}
+
+.rouganjiage{ 
+	width:285px; 
+	height:60px; 
+	float:left;
+	margin-left:20px;}
+.rouganjiage ul{ 
+	float:left; 
+	width:200px; 
+	height:60px; 
+	padding-top:20px;}
+.rouganjiage ul li{
+	float:left; 
+	width:200px; 
+	height:auto; 
+	margin-left:0px; 
+	font-size:16px; 
+	font-weight:bold;}
+.rouganjiage ul li a{
+	float:right; 
+	width:125px; 
+	height:40px; 
+	margin-top:-25px; 
+	margin-right:-85px; 
+	text-align:center; 
+	line-height:40px; 
+	background:#000;color:#FFF;
+}
+.rouganjiage ul li a:hover{ 
+	text-decoration:underline;
+}
+.footon{ 
+		width:1280px; 
+		height:220px; 
+		margin:0 auto; 
+		background-image: url(img/LoveThisTrend.jpg);
+		/*background:url('img/LoveThisTrend.jpg') no-repeat; */
+		padding-top:20px; 
+		color:#FFF;
+		position:relative;
+
+
+	}
+.footonchaxun{ 
+	width:200px; 
+	height:40px; 
+	margin:10px auto;}
+.footonchaxun a{ 
+	width:200px; 
+	height:40px; 
+	font-size:25px; 
+	border:1px solid #FFF; 
+	display:block; 
+	text-align:center; 
+	color:#FFF; line-height:40px;}
+.footonchaxun a:hover{ 
+	text-decoration:underline;
+}
+
+
+

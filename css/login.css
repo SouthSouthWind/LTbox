@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+#mask {
+    width: 100%;
+    height: 100%;
+   	background-color: rgba(102,102,102,0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:none;
+    z-index:80;
+   
+}
+#show {
+    width: 360px;
+    height: 420px;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    margin: -150px 0 0 -150px;
+    display: none;
+    z-index: 90;
+}
+#close{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 15px;
+	text-align:center;
+	line-height: 30px;
+	position: relative;
+	left: 346px;
+	bottom: 18px;
+	cursor: pointer;
+}
+#headerlogin{
+    float:left;
+	margin-left: 80px;
+
+}
+.dl{
+	position: relative;
+	left: 240px;
+    top:30px;
+    width:60px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: center;
+    cursor: pointer;
+    
+}
+#login{
+	width: 320px;
+	height:300px;
+	position:relative;
+	left:20px;
+	top:40px;
+	display:block;
+	
+}
+#user_id{
+	width:220px;
+	height:28px;
+	position:absolute;
+	top:40px;
+	left:20px;
+}
+#passwd{
+	width:220px;
+	height:28px;
+	position:absolute;
+	top:90px;
+	left:20px;
+}
+#code{
+	width:130px;
+	height:28px;
+	position:absolute;
+	top:140px;
+	left:20px;
+}
+#ycode{
+	width:76px;
+	height:34px;
+	position:absolute;
+	top:140px;
+	left:166px;
+
+}
+#user_login{
+	position:absolute;
+	top:190px;
+	left:20px;
+}
+#root_login{
+	position:absolute;
+	top:190px;
+	left:130px;
+}
+#login_btn{
+	width:240px;
+	height: 28px;
+	position:absolute;
+	top:240px;
+	left:20px;
+	cursor: pointer;
+}
+.txt1{
+	position:absolute;
+	top:190px;
+	left:40px;
+	font-size:12px;
+
+}
+.txt2{
+	position:absolute;
+	top:190px;
+	left:150px;
+	font-size:12px;
+}
+
+#reg{
+	width: 320px;
+	height:300px;
+	position:relative;
+	left:20px;
+	top:30px;
+	display:none;
+	
+}
+#reg_user_id{
+	width:220px;
+	height:28px;
+	position:absolute;
+	top:40px;
+	left:20px;
+}
+#reg_passwd{
+	width:220px;
+	height:28px;
+	position:absolute;
+	top:90px;
+	left:20px;
+}
+#re_reg_passwd{
+	width:220px;
+	height:28px;
+	position:absolute;
+	top:140px;
+	left:20px;
+}
+#reg_code{
+	width:130px;
+	height:28px;
+	position:absolute;
+	top:190px;
+	left:20px;
+}
+#reg_ycode{
+	width:76px;
+	height:34px;
+	position:absolute;
+	top:190px;
+	left:166px;
+
+}
+#user_reg{
+	position:absolute;
+	top:230px;
+	left:20px;
+}
+#root_reg{
+	position:absolute;
+	top:230px;
+	left:130px;
+}
+.txts1{
+	position:absolute;
+	top:230px;
+	left:40px;
+	font-size:12px;
+
+}
+.txts2{
+	position:absolute;
+	top:230px;
+	left:150px;
+	font-size:12px;
+}
+#reg_btn{
+	width:240px;
+	height: 28px;
+	position:absolute;
+	top:260px;
+	left:20px;
+	cursor: pointer;
+
+}
+.tip{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:red;
+	display: inline-block;
+	width:60px;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+	position:absolute;
+}
+.user_tip{
+
+	left:250px;
+	top:45px;
+}
+.passwd_tip{
+
+	left:250px;
+	top:95px;
+}
+.code_tip{
+
+	left:250px;
+	top:145px;
+
+}
+.reg_tip{
+	left:250px;
+	top:45px;
+}
+.reg_pass_tip{
+	left:250px;
+	top:95px;
+}
+.re_pass_tip{
+	left:250px;
+	top:145px;
+
+}
+.reg_code_tip{
+	left:250px;
+	top:195px;
+}

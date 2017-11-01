@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.div {
+	width: 100px;
+	height: 2000px;
+	background-color: #63F;
+}
+.main {
+	position: relative;
+	top: 63px;
+	width: 1359px;
+	height: 100%;
+}
+header {
+	width: 1300px;
+	height: 220px;
+	margin: 0 auto;
+}
+.p1 {
+	width: 880px;
+	height: 40px;
+	font-size: 12px;
+	margin: 10px auto;
+}
+.div1 {
+	width: 1300px;
+	height: 1150px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.div1 ul {
+	float: left;
+	width: 300px;
+	height: 500px;
+	margin: 10px;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+.div1 ul li {
+	list-style-type: none;
+}
+.div1 ul li a {
+	text-decoration: blink;
+	font-size: 18px;
+	color: #000;
+}
+.div1 ul li a:hover {
+	color: #F00;
+}
+.div1 ul li p {
+	text-decoration: blink;
+	font-size: 9px;
+	margin: 2px;
+	color: #141414;
+}
+.xing {
+	width: 100px;
+	position: relative;
+	left: 225px;
+	bottom: 380px;
+}
+.div1 .buy {
+	width: 100px;
+	height: 30px;
+	background: #000;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+.div1 .buy:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+.jiage {
+	font-size: 18px;
+}

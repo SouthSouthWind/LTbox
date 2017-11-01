@@ -1,0 +1,562 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.div{
+	width:100px;
+	height:2000px;
+	background-color:#63F;
+	}
+
+
+.nav1{
+	width: 1359px;
+	height: 60px;
+	margin-top: 60px;
+	position: fixed;
+	background: white;
+	z-index: 999;
+}
+.p1{
+	font-size: 30px;
+	font-weight: 800px;
+	margin-left: 50px;
+	margin-top: 15px;
+	
+}
+.nav1 ul{
+	list-style-type: none;
+	width: 25%;
+	height: 100%;
+	border-left: 1px solid honeydew;
+	margin-left: 350px;
+	margin-top: -55px;
+}
+.nav1 ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin-left: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+.nav1 ul li a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+.nav1 ul li a:hover{
+	text-decoration: underline;
+}
+.div1 .img1{
+	width: 1359px;
+	height:700px;
+	margin: 0 auto;
+	margin-top: 120px ;
+}
+.div1 .p2{
+	width: 900px;
+	margin-left: 385px;
+	position: absolute;
+	top: 300px;
+	color: white;
+	font-size:90px;
+}
+.div2{
+	width: 100%;
+	height: 120px;
+}
+.jingdian{
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+}
+.div2 .p3{
+	text-align: center;
+	line-height: 120px;
+	font-size: 36px;
+}
+.jingdian tr{
+	width: 100%;
+	height: 400px;
+}
+.jingdian tr td{
+	width: 25%;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	
+}
+.jingdian tr td img{
+	width: 100%;
+	height: 300px;
+	
+}
+.jingdian td .bestgoods_name a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.priceandbuy{ 
+	width:285px; 
+	height:60px; 
+	position: relative;
+	margin-left:0px; }
+.priceandbuy ul{ 
+	list-style: none;
+	width:200px; 
+	height:60px; 
+	padding-top:20px;}
+.priceandbuy ul li{
+	float:left; 
+	width:125px; 
+	height:auto; 
+	 
+	font-size:16px; 
+	font-weight:bold;}
+.priceandbuy ul li a{
+	float:right; 
+	width:125px; 
+	height:40px; 
+	margin-top:-25px; 
+	margin-right:-85px; 
+	text-align:center; 
+	line-height:40px; 
+	background:#000;
+	color:#FFF;}
+.priceandbuy ul li a:hover{ 
+	text-decoration:underline;
+}
+
+.all2{
+	width: 100%;
+	height: 500px;
+}
+
+.all2 .div16{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 50px;
+}
+.div16 .img6{
+	margin-top: 140px;
+	margin-left: 10px;
+}
+.div17{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div17 .sp9{
+	font-size:20px
+}
+.div17 .sp9 a{
+	text-decoration: none;
+	color: black;
+}
+.div17 .sp9 a:hover{
+	color: darkgrey;
+}
+.div17 .sp10{
+	font-size:10px
+}
+
+.all2 .div18{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 380px;
+	margin-top: -500px;
+}
+.div18 .img7{
+	margin-top: 140px;	
+}
+.div19{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div19 .sp11{
+	font-size:20px
+}
+.div19 .sp11 a{
+	text-decoration: none;
+	color: black;
+}
+.div19 .sp11 a:hover{
+	color: darkgrey;
+}
+.div19 .sp12{
+	font-size:10px
+}
+
+.all2 .div20{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 730px;
+	margin-top: -500px;
+}
+.div20 .img8{
+	margin-top: 140px;	
+}
+.div21{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div21 .sp13{
+	font-size:20px
+}
+.div21 .sp13 a{
+	text-decoration: none;
+	color: black;
+}
+.div21 .sp13 a:hover{
+	color: darkgrey;
+}
+.div21 .sp14{
+	font-size:10px
+}
+.all2 .div22{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 1080px;
+	margin-top: -500px;
+}
+.div22 .img9{
+	margin-top: 140px;	
+}
+.div23{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div23 .sp15{
+	font-size:20px
+}
+.div23 .sp15 a{
+	text-decoration: none;
+	color: black;
+}
+.div23 .sp15 a:hover{
+	color: darkgrey;
+}
+.div23 .sp16{
+	font-size:10px
+}
+.p9{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.div24{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 250px;
+	margin-top: -30px;
+}
+.div24 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div24 a:hover{
+	text-decoration: underline;
+}
+.p10{
+	font-size: 20px;
+	margin-left: 380px;
+	margin-top: -30px;
+}
+.div25{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 580px;
+	margin-top: -25px;
+}
+.div25 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div25 a:hover{
+	text-decoration: underline;
+}
+.p11{
+	font-size: 20px;
+	margin-left: 740px;
+	margin-top: -30px;
+}
+.div26{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 910px;
+	margin-top: -25px;
+}
+.div26 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div26 a:hover{
+	text-decoration: underline;
+}
+.p12{
+	font-size: 20px;
+	margin-left: 1100px;
+	margin-top: -30px;
+}.div27{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 1240px;
+	margin-top: -25px;
+}
+.div27 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div27 a:hover{
+	text-decoration: underline;
+}
+.div28{
+	width: 100%;
+	height: 120px;
+	margin-top: 40px;
+	border-top:1px solid wheat ;
+}
+.div28 .p13{
+	text-align: center;
+	line-height: 120px;
+	font-size: 36px;
+}
+.all3{
+	width: 100%;
+	height: 500px;
+}
+
+.all3 .div29{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 50px;
+}
+.div29 .img10{
+	margin-top: 140px;
+	margin-left: 10px;
+}
+.div30{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div30 .sp17{
+	font-size:20px
+}
+.div30 .sp17 a{
+	text-decoration: none;
+	color: black;
+}
+.div30 .sp17 a:hover{
+	color: darkgrey;
+}
+.div30 .sp18{
+	font-size:10px
+}
+.all3 .div31{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 380px;
+	margin-top: -500px;
+}
+.div31 .img11{
+	margin-top: 140px;	
+}
+.div32{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div32 .sp19{
+	font-size:20px
+}
+.div32 .sp19 a{
+	text-decoration: none;
+	color: black;
+}
+.div32 .sp19 a:hover{
+	color: darkgrey;
+}
+.div32 .sp20{
+	font-size:10px
+}
+.all3 .div33{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 730px;
+	margin-top: -500px;
+}
+.div33 .img12{
+	margin-top: 140px;	
+}
+.div34{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div34 .sp21{
+	font-size:20px
+}
+.div34 .sp21 a{
+	text-decoration: none;
+	color: black;
+}
+.div34 .sp21 a:hover{
+	color: darkgrey;
+}
+.div34 .sp22{
+	font-size:10px
+}
+.all3 .div35{
+	width: 300px;
+	height: 500px;
+	border-top: 1px solid wheat;
+	border-bottom: 1px solid wheat;
+	margin-left: 1080px;
+	margin-top: -500px;
+}
+.div35 .img13{
+	margin-top: 140px;	
+}
+.div36{
+	width:300px;
+	height: 70px;
+	margin-top: -445px;
+}
+.div36 .sp23{
+	font-size:20px
+}
+.div36 .sp23 a{
+	text-decoration: none;
+	color: black;
+}
+.div36 .sp23 a:hover{
+	color: darkgrey;
+}
+.div36 .sp24{
+	font-size:10px
+}
+.p14{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.div37{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 250px;
+	margin-top: -30px;
+}
+.div37 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div37 a:hover{
+	text-decoration: underline;
+}
+.p15{
+	font-size: 20px;
+	margin-left: 380px;
+	margin-top: -30px;
+}
+.div38{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 580px;
+	margin-top: -25px;
+}
+.div38 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div38 a:hover{
+	text-decoration: underline;
+}
+.p16{
+	font-size: 20px;
+	margin-left: 740px;
+	margin-top: -30px;
+}
+.div39{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 910px;
+	margin-top: -25px;
+}
+.div39 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div39 a:hover{
+	text-decoration: underline;
+}
+.p17{
+	font-size: 20px;
+	margin-left: 1100px;
+	margin-top: -30px;
+}.div40{
+	background: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 1240px;
+	margin-top: -25px;
+}
+.div40 a{
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-left:10px ;
+}
+.div40 a:hover{
+	text-decoration: underline;
+}
